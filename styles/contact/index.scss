@@ -1,0 +1,82 @@
+@use "../common/_reset";
+@use "../common/_header";
+@use "../common/_footer";
+@use "../common/_index";
+
+.top-content {
+  display: flex;
+  padding: 10px;
+  margin-top: 40px;
+
+  .left-side {
+    width: 100%;
+
+    .header-label {
+      font-size: 22px;
+      font-family: mulish;
+      font-weight: bold;
+      margin: 25px 0;
+    }
+
+    .description {
+      font-family: "Mulish";
+      font-size: 16px;
+      line-height: 26px;
+      padding: 20px 0;
+    }
+  }
+
+  .right-side {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .left {
+      max-width: 95%;
+      width: 100%;
+
+      .input-field {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+        :first {
+          padding-top: 0px;
+        }
+
+        input {
+          height: 50px;
+          border: none;
+          border-bottom: 1px solid #c1c8cb;
+          outline: none;
+          color: white;
+          caret-color: black;
+          background-color: transparent;
+        }
+      }
+
+      .btn-container {
+        padding: 20px;
+        button {
+          width: 125px;
+          height: 50px;
+          background: #4a4ff2;
+          color: white;
+          text-transform: uppercase;
+          font-family: "roboto";
+          font-size: 12px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.portrait {
+  padding: 10px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
