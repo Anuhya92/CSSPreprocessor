@@ -1,9 +1,9 @@
-@use "../common/_reset";
-@use "../common/_header";
-@use "../common/_footer";
-@use "../common/_index";
+@use "../partials/_reset";
+@use "../partials/_header";
+@use "../partials/_footer";
+@use "../partials/_index";
 
-@import "../common/_variables";
+@import "../partials/_variables";
 
 .top-content,
 .bottom-content {
